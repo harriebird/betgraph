@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/django,python,pycharm+all,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=django,python,pycharm+all,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/django,pythonvanilla,vue,vuejs,pycharm+all,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=django,pythonvanilla,vue,vuejs,pycharm+all,visualstudiocode
 
 ### Django ###
 *.log
@@ -18,7 +18,7 @@ media
 ### Django.Python Stack ###
 # Byte-compiled / optimized / DLL files
 *.py[cod]
-*$py.classcd
+*$py.class
 
 # C extensions
 *.so
@@ -259,36 +259,18 @@ fabric.properties
 !.idea/codeStyles
 !.idea/runConfigurations
 
-### Python ###
+### PythonVanilla ###
 # Byte-compiled / optimized / DLL files
 
 # C extensions
 
 # Distribution / packaging
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-
 # Installer logs
 
 # Unit test / coverage reports
 
 # Translations
-
-# Django stuff:
-
-# Flask stuff:
-
-# Scrapy stuff:
-
-# Sphinx documentation
-
-# PyBuilder
-
-# Jupyter Notebook
-
-# IPython
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
@@ -301,55 +283,8 @@ fabric.properties
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
 
-# poetry
-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
 
-# pdm
-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
-#   in version control.
-#   https://pdm.fming.dev/#use-with-ide
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-
-# Celery stuff
-
-# SageMath parsed files
-
-# Environments
-
-# Spyder project settings
-
-# Rope project settings
-
-# mkdocs documentation
-
-# mypy
-
-# Pyre type checker
-
-# pytype static type analyzer
-
-# Cython debug symbols
-
-# PyCharm
-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-
-### Python Patch ###
-# Poetry local configuration file - https://python-poetry.org/docs/configuration/#local-configuration
-poetry.toml
-
-# ruff
-.ruff_cache/
-
-# LSP config files
-pyrightconfig.json
 
 ### VisualStudioCode ###
 .vscode/*
@@ -370,7 +305,26 @@ pyrightconfig.json
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/django,python,pycharm+all,visualstudiocode
+### Vue ###
+# gitignore template for Vue.js projects
+#
+# Recommended template: Node.gitignore
+
+# TODO: where does this rule come from?
+docs/_book
+
+# TODO: where does this rule come from?
+test/
+
+### Vuejs ###
+# Recommended template: Node.gitignore
+
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# End of https://www.toptal.com/developers/gitignore/api/django,pythonvanilla,vue,vuejs,pycharm+all,visualstudiocode
+
 
 # Custom Ignores
 secrets.json
